@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <nav className="lg:min-h-screen pt-12 mb-28 md:mb-0 md:pt-24 space-y-2 md:space-y-3">
-      <h1 className="text-white text-4xl md:text-5xl font-extrabold">
+      <h1 className="text-teal-300 text-4xl md:text-5xl font-extrabold">
         <a href="https://mohammedafsal.vercel.app">Mohammed Afsal</a>
       </h1>
       <h3 className="text-white text-lg md:text-xl font-semibold">
@@ -40,7 +40,7 @@ const Navbar = () => {
           I build exceptional and accessible digital experiences for the web.
         </p>
         <ul className="hidden lg:flex flex-col mt-20 space-y-4 font-semibold">
-          {["ABOUT", "EXPERIENCE", "PROJECTS"].map((section, index) => (
+          {["ABOUT", "EXPERIENCE", "TECHNOLOGIES", "PROJECTS"].map((section, index) => (
             <li key={index}>
               <a href={"#" + section.toLowerCase()} className="hover:text-white">
                 {section}
