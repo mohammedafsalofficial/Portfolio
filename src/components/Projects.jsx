@@ -13,6 +13,7 @@ const Projects = () => {
       title: "NoteSnap",
       description:
         "Tired of sticky notes scattered everywhere? Wishing you had a centralized, digital space to capture your thoughts, ideas, and to-dos? Look no further than NoteSnap, the ultimate note-taking web application designed to streamline your workflow and boost your productivity!",
+      link: "https://github.com/mohammedafsalofficial/NoteSnap",
     },
     {
       id: 2,
@@ -20,6 +21,7 @@ const Projects = () => {
       title: "StreamUp",
       description:
         "Forget passive video watching – enter the era of interactive live stream analysis with StreamUp! We break free from the confines of the screen and unveil the hidden layers of live video, transforming it from captivating entertainment to a rich data playground.",
+      link: "https://github.com/mohammedafsalofficial/Stream-Up",
     },
     {
       id: 3,
@@ -27,6 +29,7 @@ const Projects = () => {
       title: "Employee Management System",
       description:
         "Juggling mountains of employee files got you down? Wish you had a streamlined, secure, and accessible way to store all your HR data? Look no further than Employee Management System, the powerful web application designed to revolutionize employee data management!",
+      link: "https://github.com/mohammedafsalofficial/Employee-Management-System",
     },
     {
       id: 4,
@@ -34,6 +37,7 @@ const Projects = () => {
       title: "Chatbot",
       description:
         "Tired of chatbots that only give repetitive answers? The intelligent assistant that learns from you and evolves with every interaction. We're not just here to answer your questions – we're here to build a unique relationship and become your personalized AI companion.",
+      link: "https://github.com/mohammedafsalofficial/Chatbot",
     },
     {
       id: 5,
@@ -41,6 +45,7 @@ const Projects = () => {
       title: "Group Chat",
       description:
         "Tired of the visual overload of modern chat apps? Longing for the days of focused conversations fueled by the clack of keys? Step into the shadows of the terminal with Group Chat, where deep connections bloom amidst lines of code.",
+      link: "https://github.com/mohammedafsalofficial/Group-Chat",
     },
   ];
 
@@ -49,7 +54,12 @@ const Projects = () => {
       <h2 className="text-teal-300 text-2xl font-semibold">Projects</h2>
       {projects.map((project) => (
         <div key={project.id}>
-          <Project img={project.img} title={project.title} description={project.description} />
+          <Project
+            link={project.link}
+            img={project.img}
+            title={project.title}
+            description={project.description}
+          />
         </div>
       ))}
     </section>
