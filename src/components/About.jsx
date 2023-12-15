@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="space-y-4 text-lg md:text-xl">
-      <h2 className="text-white text-2xl font-semibold">About</h2>
+      <h2 className="text-teal-300 text-2xl font-semibold">About</h2>
       <p>
         I emerged from the vibrant shores of <span>Thoothukudi, India, in 2003,</span> with a
         spark for <span>code</span> already flickering in my soul. But it wasn't just any code;

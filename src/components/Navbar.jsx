@@ -40,13 +40,15 @@ const Navbar = () => {
           I build exceptional and accessible digital experiences for the web.
         </p>
         <ul className="hidden lg:flex flex-col mt-20 space-y-4 font-semibold">
-          {["ABOUT", "EXPERIENCE", "TECHNOLOGIES", "PROJECTS"].map((section, index) => (
-            <li key={index}>
-              <a href={"#" + section.toLowerCase()} className="hover:text-white">
-                {section}
-              </a>
-            </li>
-          ))}
+          {["ABOUT", "EXPERIENCE", "TECHNOLOGIES", "PROJECTS", "CONTACT"].map(
+            (section, index) => (
+              <li key={index}>
+                <a href={"#" + section.toLowerCase()} className="hover:text-white">
+                  {section}
+                </a>
+              </li>
+            )
+          )}
         </ul>
         <ul className="flex text-3xl space-x-5 lg:absolute lg:bottom-28 mt-8 lg:mt-0">
           {socials.map((social) => (

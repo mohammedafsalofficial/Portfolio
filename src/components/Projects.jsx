@@ -45,8 +45,8 @@ const Projects = () => {
   ];
 
   return (
-    <section id="experience" className="space-y-4 text-lg md:text-xl">
-      <h2 className="text-white text-2xl font-semibold">Projects</h2>
+    <section id="projects" className="space-y-4 text-lg md:text-xl">
+      <h2 className="text-teal-300 text-2xl font-semibold">Projects</h2>
       {projects.map((project) => (
         <div key={project.id}>
           <Project img={project.img} title={project.title} description={project.description} />

@@ -40,8 +40,8 @@ const Technologies = () => {
   ];
 
   return (
-    <section id="experience" className="space-y-4 text-lg md:text-xl">
-      <h2 className="text-white text-2xl font-semibold">Technologies</h2>
+    <section id="technologies" className="space-y-4 text-lg md:text-xl">
+      <h2 className="text-teal-300 text-2xl font-semibold">Technologies</h2>
       <div className="grid grid-cols-2">
         {technologies.map((technology) => (
           <div key={technology.id}>

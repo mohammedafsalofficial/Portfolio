@@ -35,7 +35,7 @@ const Experiences = () => {
 
   return (
     <section id="experience" className="space-y-4 text-lg md:text-xl">
-      <h2 className="text-white text-2xl font-semibold">Experiences</h2>
+      <h2 className="text-teal-300 text-2xl font-semibold">Experiences</h2>
       {experiences.map((experience) => (
         <div key={experience.id}>
           <Experience
