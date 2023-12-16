@@ -8,6 +8,21 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+:root {
+  --color-bg1: rgb(108, 0, 162);
+  --color-bg2: rgb(0, 17, 82);
+}
+
+.gradient-bg {
+  min-width: 100vw;
+  min-height: 100vh;
+  position: absolute;
+  overflow: hidden;
+  background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2));
+  top: 0;
+  left: 0;
+}
+
 span {
   color: white;
 }
@@ -26,7 +41,7 @@ span {
 }
 
 .blue-glassmorphism:hover {
-  background: rgb(39, 51, 89, 0.4);
+  background: linear-gradient(40deg, var(--color-bg2), var(--color-bg1));
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition-duration: 0.09s;

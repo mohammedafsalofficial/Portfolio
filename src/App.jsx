@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div className="bg-slate-900 text-slate-400 min-h-screen antialiased selection:bg-teal-300 selection:text-teal-900">
+    <div className="gradient-bg bg-slate-900 text-slate-400 min-h-screen antialiased selection:bg-teal-300 selection:text-teal-900">
       <a href="https://mohammedafsal.vercel.app">
         <img src={logo} alt="" className="hidden md:block w-40 absolute right-0" />
       </a>

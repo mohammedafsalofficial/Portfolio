@@ -1,3 +1,4 @@
+import { FaArrowRight } from "react-icons/fa6";
 import Experience from "./Experience";
 
 const Experiences = () => {
@@ -45,6 +46,10 @@ const Experiences = () => {
           />
         </div>
       ))}
+      <div className="pt-10 flex items-center space-x-1 text-white text-base hover:underline hover:space-x-3 underline-offset-4 decoration-teal-300">
+        <a href="">View Full Résumé</a>
+        <FaArrowRight />
+      </div>
     </section>
   );
 };
