@@ -39,7 +39,7 @@ span {
 }
 
 .blue-glassmorphism:hover {
-  background: linear-gradient(40deg, var(--color-bg2), var(--color-bg1));
+  background: rgb(39, 51, 89, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transition-duration: 0.09s;
